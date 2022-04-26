@@ -18,7 +18,7 @@ use_debug false
 
 define :pianoMelody do
   use_synth :blade
-  use_synth_defaults amp: 2, release: 8
+  use_synth_defaults amp: 2, release: 4
   
   play [:f2, :a2, :d3]
   sleep 4
@@ -68,7 +68,6 @@ define :synth1 do
 end
 
 define :synth2 do
-  use_synth :prophet
   use_synth_defaults amp: 0.8, attack: 0.2
   
   play :d3, release: 1

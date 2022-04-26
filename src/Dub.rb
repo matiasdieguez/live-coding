@@ -1,14 +1,14 @@
-# Dub techno in Sonic Pi by Jindrich Mynarz
+# Dub by Jindrich Mynarz
 # https://gist.github.com/jindrichmynarz/f233f75c719abe6a6c81
-# Remixed (Forked) by Mat
+# Remixed by Mat
 use_debug false
 use_bpm 110
 
 # Our mixer!
 master = (ramp *range(0, 1, 0.01))
-kick_volume = 1
-bass_volume = 1
-revbass_volume = 1
+kick_volume = 10
+bass_volume = 6
+revbass_volume = 8
 snare_volume = 0.5
 hats_volume = 0.5
 open_hats_volume = 1
@@ -16,9 +16,9 @@ synth_volume = 1
 pad_volume = 1
 beep_volume = 0.5
 
-kick_cutoffs = range(50, 80, 0.5).mirror # A LFO for the poor
+kick_cutoffs = range(50, 80, 0.5).mirror 
 live_loop :kick do
-  if (spread 1, 4).tick then # 4-on-the-floor
+  if (spread 1, 4).tick then 
     sample :bd_tek, amp: master.look * kick_volume,
       cutoff: kick_cutoffs.look
   end

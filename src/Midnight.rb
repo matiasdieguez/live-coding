@@ -1,16 +1,19 @@
+# Midnight Blues
+# by Mat
+
 live_loop :chords do
-  use_synth :piano # :dtri #:blade
-  play chord(:a2, :minor7), attack: 0, release: 8, amp: 5
+  use_synth :blade
+  play chord(:a2, :minor7), attack: 0, release: 8, amp: 3
   sleep 8
-  play chord(:d2, :minor7), attack: 0, release: 8, amp: 5
+  play chord(:d2, :minor7), attack: 0, release: 8, amp: 3
   sleep 4
-  play chord(:a2, :minor7), attack: 0, release: 8, amp: 5
+  play chord(:a2, :minor7), attack: 0, release: 8, amp: 3
   sleep 4
-  play chord(:e2, :minor), attack: 0, release: 8, amp: 5
+  play chord(:e2, :minor), attack: 0, release: 8, amp: 3
   sleep 2
-  play chord(:d2, :minor), attack: 0, release: 8, amp: 5
+  play chord(:d2, :minor), attack: 0, release: 8, amp: 3
   sleep 2
-  play chord(:a2, :minor), attack: 0, release: 8, amp: 5
+  play chord(:a2, :minor), attack: 0, release: 8, amp: 3
   sleep 4
 end
 

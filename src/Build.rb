@@ -1,18 +1,24 @@
+# Build
+# by Mat
+
+use_random_seed 5187441
 live_loop :rand_surfer do
   use_synth :dsaw
-  notes = (scale :c1, :minor_pentatonic, num_octaves: 2)
+  notes_surf = (scale :a1, :minor_pentatonic, num_octaves: 2)
   16.times do
-    play notes.choose, release: 0.1, cutoff: rrand(70, 120)
+    play notes_surf.choose, release: 0.1, cutoff: rrand(70, 120)
     sleep 0.250
   end
 end
 
 live_loop :rand_high_surfer do
-  use_synth :prophet
-  notes = (scale :c1, :minor_pentatonic, num_octaves: 5)
-  16.times do
-    play notes.choose, release: 0.1, cutoff: rrand(70, 120)
-    sleep 0.5
+  with_fx :echo, phase: 0.125, decay: 8 do
+    use_synth :prophet
+    notes = (scale :a1, :minor_pentatonic, num_octaves: 5)
+    16.times do
+      play notes.choose, release: 0.1, cutoff: rrand(70, 120)
+      sleep 0.5
+    end
   end
 end
 
