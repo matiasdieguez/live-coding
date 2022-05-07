@@ -1,7 +1,7 @@
 # Life reggae
 # by Mat
 
-# Guitar with Coronado Dub
+# GuitarFX: Coronado Dub
 
 use_bpm 80
 
@@ -31,10 +31,16 @@ end
 live_loop :base do
   with_fx :echo do
     use_synth :dtri
+    play chord(:g3, :minor)
     play chord(:g2, :minor)
-    sleep 8
+    sleep 4
+    play chord(:g3, :minor)
+    play chord(:g2, :minor)
+    sleep 4
+    play chord(:c3, :minor)
     play chord(:c2, :minor)
     sleep 4
+    play chord(:d3, :minor)
     play chord(:d2, :minor)
     sleep 4
   end

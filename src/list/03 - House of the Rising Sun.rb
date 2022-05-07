@@ -1,7 +1,7 @@
 # House of the Rising Sun
 # Traditional - by Mat
 
-# Guitar with Coronado Blues
+# GuitarFX: Coronado Blues
 
 live_loop :chords do
   use_synth :dtri

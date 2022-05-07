@@ -1,7 +1,7 @@
 # Sundown / Life reggae
 # by Mat
 
-# Guitar with Coronado Dub
+# GuitarFX: Coronado Dub
 
 #for Sundown 90 bpm
 use_bpm 90

@@ -1,7 +1,7 @@
 # Aves en streaming
 # by Mat
 
-# Guitar with Coronado Blues
+# GuitarFX: Coronado Blues
 
 use_bpm 54
 

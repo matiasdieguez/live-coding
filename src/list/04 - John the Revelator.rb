@@ -2,7 +2,8 @@
 # Traditional - by Mat
 
 # Drums with dot-net-beats
-# Guitar with Coronado Blues
+
+# GuitarFX: Coronado Blues
 
 # Or....
 
