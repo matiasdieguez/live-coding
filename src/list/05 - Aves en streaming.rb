@@ -1,7 +1,7 @@
 # Aves en streaming
 # by Mat
 
-# GuitarFX: Coronado Blues
+# Guitar  FX: Coronado Blues
 
 use_bpm 54
 
@@ -24,7 +24,7 @@ end
 
 live_loop :cymbal do
   sample :drum_cymbal_closed
-  sleep 0.5
+  sleep 0.5 #0.25
 end
 
 live_loop :bass_echo do
