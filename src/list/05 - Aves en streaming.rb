@@ -34,3 +34,15 @@ live_loop :bass_echo do
     play :d2, release: 2
     sleep 4
 end
+
+# Lyrics:
+
+# Con tantas aves que hay en streaming,
+# muchas historias tejen sus redes
+# Con tantas aves que hay en streaming,
+# muchas historias tejen sus redes
+
+# Nos refugiamos en nido virtual
+# en esta epidemia de virus mundial
+# En nido virtual...
+# En nido virtual...

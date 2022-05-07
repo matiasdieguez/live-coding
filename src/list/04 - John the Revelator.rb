@@ -30,3 +30,9 @@ live_loop :bass do
     sleep 1
 end
 
+# Lyrics:
+
+# Tell me Who's that writing, John the Revelator
+# Tell me Who's that writing, John the Revelator
+# Tell me Who's that writing, John the Revelator
+# Wrote the book of the seven seals
