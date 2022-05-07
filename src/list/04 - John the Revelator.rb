@@ -4,11 +4,15 @@
 # Drums with dot-net-beats
 # Guitar with Coronado Blues
 
-live_loop :drums do
-    sample :bd_haus
-    sleep 1
-    sample :sn_generic
-    sleep 1
+# Or....
+
+comment do
+    live_loop :drums do
+        sample :bd_haus
+        sleep 1
+        sample :sn_generic
+        sleep 1
+    end
 end
   
 live_loop :bass do
