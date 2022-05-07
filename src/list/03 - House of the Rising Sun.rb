@@ -1,5 +1,7 @@
 # House of the Rising Sun
-# Traditional (public domain) by Mat
+# Traditional - by Mat
+
+# Guitar with Coronado Blues
 
 live_loop :chords do
   use_synth :dtri
