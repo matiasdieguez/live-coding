@@ -28,3 +28,8 @@ end
 # Tell me Who's that writing, John the Revelator
 # Tell me Who's that writing, John the Revelator
 # Wrote the book of the seven seals
+
+# Tell me who is that coder, Carlo the Beatus
+# Tell me who is that coder, Carlo the Beatus
+# Tell me who is that coder, Carlo the Beatus
+# Wrote the site of the miracles 
