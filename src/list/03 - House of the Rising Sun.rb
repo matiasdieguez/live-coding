@@ -47,7 +47,7 @@ live_loop :notes do
       use_synth :prophet
       notes = (scale :a3, :minor_pentatonic, num_octaves: 4)
       16.times do
-        play notes.choose, release: 0.1, cutoff: rrand(70, 120)
+        #play notes.choose, release: 0.1, cutoff: rrand(70, 120)
         sleep 0.250
       end
     end

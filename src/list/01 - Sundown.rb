@@ -1,12 +1,12 @@
 # Sundown / Life reggae
 # by Mat
 
-# GuitarFX: Coronado Dub
+# Guitar with Coronado Dub
 
 #for Sundown 90 bpm
-use_bpm 90
+use_bpm 80
 
-#for Life reggae 80 bpm
+#for Liven up reggae 70 bpm
 
 live_loop :hihats do
   sample :drum_cymbal_closed, amp: 1, rate: 2 if one_in(2)
