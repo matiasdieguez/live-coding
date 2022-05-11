@@ -3,7 +3,7 @@
 
 # Drums with dot-net-beats
 
-# GuitarFX: Coronado Blues
+# GuitarFX: Coronado Blues Delay
 
 use_bpm 54
 
