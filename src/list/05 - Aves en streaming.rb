@@ -1,7 +1,7 @@
 # Aves en streaming
 # by Mat
 
-# Guitar  FX: Coronado Blues
+# Guitar  FX: Coronado Clean Delay
 
 use_bpm 54 #64
 
