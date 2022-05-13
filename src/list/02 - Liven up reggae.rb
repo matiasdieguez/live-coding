@@ -45,17 +45,3 @@ live_loop :base do
     sleep 4
   end
 end
-
-# Lyrics:
-
-# Liven up for more...
-# Liven up for more...
-# liven up! for! more!
-# Liven up for more!
-
-# You can go for more,
-# You can go for more,
-# Liven up for more
-# Liven up for more
-
-# Believe me
