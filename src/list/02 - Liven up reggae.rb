@@ -3,7 +3,7 @@
 
 # GuitarFX: Coronado Dub
 
-use_bpm 80
+use_bpm 70 # -> 80
 
 live_loop :hihats do
   sample :drum_cymbal_closed, amp: 1, rate: 2 if one_in(2)
@@ -31,17 +31,17 @@ end
 live_loop :base do
   with_fx :echo do
     use_synth :dtri
-    play chord(:g3, :minor)
-    play chord(:g2, :minor)
+    #play chord(:g3, :minor)
+    #play chord(:g2, :minor)
     sleep 4
-    play chord(:g3, :minor)
-    play chord(:g2, :minor)
+    #play chord(:g3, :minor)
+    #play chord(:g2, :minor)
     sleep 4
-    play chord(:c3, :minor)
-    play chord(:c2, :minor)
+    #play chord(:c3, :minor)
+    #play chord(:c2, :minor)
     sleep 4
-    play chord(:d3, :minor)
-    play chord(:d2, :minor)
+    #play chord(:d3, :minor)
+    #play chord(:d2, :minor)
     sleep 4
   end
 end
@@ -53,3 +53,9 @@ end
 # liven up! for! more!
 # Liven up for more!
 
+# You can go for more,
+# You can go for more,
+# Liven up for more
+# Liven up for more
+
+# Believe me
