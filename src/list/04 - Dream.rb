@@ -1,6 +1,8 @@
 # Dream
 # by Mat
 
+# GuitarFx: Coronado Clean Delay
+
 live_loop :beats do
     sample :bd_tek
     with_fx :echo, phase: 0.125, mix: 0.4 do
