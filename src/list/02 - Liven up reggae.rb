@@ -1,7 +1,7 @@
 # Liven up reggae
-# by Mat
+# by Matías Dieguez
 
-# GuitarFX: Coronado Dub
+# guitar_fx = "Coronado Dub"
 
 use_bpm 70 # -> 80
 

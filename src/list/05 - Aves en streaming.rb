@@ -1,7 +1,7 @@
 # Aves en streaming
-# by Mat
+# by Matías Dieguez
 
-# Guitar  FX: Coronado Clean Delay
+# guitar_fx = "Coronado Clean Delay"
 
 use_bpm 54 #64
 

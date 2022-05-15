@@ -1,5 +1,7 @@
 # Micro Sound Rising
-# by Mat
+# by Matías Dieguez
+
+# guitar_fx = "Coronado Blues"
 
 # beats 2x(1), 2x(2), 2x(1,2)
 # bass 1x(1), 8x(2)

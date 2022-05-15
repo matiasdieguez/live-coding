@@ -1,12 +1,12 @@
 # Sundown / Life reggae
-# by Mat
+# by Matías Dieguez
 
-# Guitar with Coronado Dub
+# guitar_fx = "Coronado Dub"
 
-#for Sundown 90 bpm
+# for Sundown 90 bpm
 use_bpm 80
 
-#for Liven up reggae 70 bpm
+# for Liven up reggae 70 bpm
 
 live_loop :hihats do
   sample :drum_cymbal_closed, amp: 1, rate: 2 if one_in(2)
