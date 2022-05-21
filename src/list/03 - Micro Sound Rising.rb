@@ -26,19 +26,19 @@ live_loop :beats do
   end
 end
 
-live_loop :pad do
-  sleep 3.4
-  sample :msr_pad, amp: loop_amp
-  sleep 48
-end
-
 live_loop :bass do
   1.times do
     sample :msr_bass_1, amp: loop_amp
     sleep loop_sleep
   end
-  8.times do
+  2.times do
     sample :msr_bass_2, amp: loop_amp
     sleep loop_sleep
   end
+end
+
+live_loop :pad do
+  sleep 3.4
+  sample :msr_pad, amp:loop_amp
+  sleep 48
 end
