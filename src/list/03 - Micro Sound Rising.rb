@@ -1,4 +1,4 @@
-# Micro Sound Rising
+D# Micro Sound Rising
 # by Matías Dieguez
 
 # guitar_fx = "Coronado Blues"
@@ -8,7 +8,7 @@
 # pad sleep 3.4 after & 48 before
 
 loop_sleep = 6.86
-loop_amp = 3
+loop_amp = 1
 
 live_loop :beats do
   2.times do

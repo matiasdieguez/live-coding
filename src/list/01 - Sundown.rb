@@ -4,7 +4,7 @@
 # guitar_fx = "Coronado Dub"
 
 use_bpm 80
-loop_amp = 3
+loop_amp = 1
 
 live_loop :hihats do
   #sample :drum_cymbal_closed, amp: 1, rate: 2 if one_in(2)
@@ -44,8 +44,10 @@ live_loop :base2 do
   with_fx :echo, decay: 6, phase: 0.25 do
     use_synth :dtri
     #:d3, :minor
+
     sleep 4
     #:g3, :major
+
     sleep 4
   end
 end
