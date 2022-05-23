@@ -4,17 +4,17 @@
 # guitar_fx = "Coronado Dub"
 
 use_bpm 80
-sample_amp = 3
+loop_amp = 3
 
 live_loop :hihats do
-  sample :drum_cymbal_closed, amp: 1, rate: 2 if one_in(2)
-  sample :drum_cymbal_closed, amp: 1, rate: 1.5 if one_in(3)
+  #sample :drum_cymbal_closed, amp: 1, rate: 2 if one_in(2)
+  #sample :drum_cymbal_closed, amp: 1, rate: 1.5 if one_in(3)
   sleep 0.25
 end
 
 live_loop :snare do
   sleep 1
-  sample :sn_dolf
+  #sample :sn_dolf
   sleep 1
 end
 
@@ -32,33 +32,31 @@ end
 live_loop :base do
   with_fx :echo, decay: 6, phase: 0.25 do
     use_synth :dtri
-    #play chord(:d2, :minor), amp: sample_amp
+    #play chord(:d2, :minor), amp: loop_amp
     sleep 4
-    #play chord(:g2, :major), amp: sample_amp
+    #:g2, :major
     sleep 4
   end
 end
-
 
 live_loop :base2 do
   sync :base
   with_fx :echo, decay: 6, phase: 0.25 do
     use_synth :dtri
-    #play chord(:d3, :minor), amp: sample_amp
+    #:d3, :minor
     sleep 4
-    #play chord(:g3, :major), amp: sample_amp
+    #:g3, :major
     sleep 4
   end
 end
-
 
 live_loop :base3 do
   sync :base
   with_fx :echo, decay: 6, phase: 0.25 do
     use_synth :dtri
-    #play chord(:d5, :minor), amp: sample_amp
+    #:d5 :minor
     sleep 4
-    #play chord(:g5, :major), amp: sample_amp
+    #:g5 :major
     sleep 4
   end
 end
