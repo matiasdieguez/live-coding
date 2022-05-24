@@ -3,8 +3,8 @@
 
 # guitar_fx = "Coronado Dub"
 
-use_bpm 70 # -> 80
-sample_amp = 1
+use_bpm 70 
+sample_amp = 0.5
 
 live_loop :hihats do
   sample :drum_cymbal_closed, amp: 1, rate: 2 if one_in(2)
